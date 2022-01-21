@@ -187,7 +187,7 @@ static int config_pppd(int wan_proto, int num, char *prefix)
 		 * ERROR if issued).
 		 */
 		if ((p = nvram_safe_get(strcat_r(prefix, "_modem_apn", tmp))) && (*p))
-			fprintf(cfp, "OK 'AT+CGDCONT=1,\"IP\",\"%s\"'\n", p);
+			fprintf(cfp, "OK 'AT+CGDCONT=1,\"IPV4\",\"%s\"'\n", p);
 
 		fprintf(cfp, "OK \"ATDT%s\"\n"
 		             "TIMEOUT 30\n"
