@@ -29,4 +29,5 @@ obj-$(CONFIG_USB_SIERRA_NET)	+= sierra_net.o
 obj-$(CONFIG_USB_NET_CDC_NCM)	+= cdc_ncm.o
 obj-$(CONFIG_USB_NET_HUAWEI_CDC_NCM)	+= huawei_cdc_ncm.o
 obj-$(CONFIG_USB_NET_QMI_WWAN)	+= qmi_wwan.o
+obj-$(CONFIG_USB_NET_QMI_SIMCOM_WWAN)	+= simcom_wwan.o
 obj-$(CONFIG_USB_NET_CDC_MBIM)	+= cdc_mbim.o
